@@ -11,4 +11,31 @@
     background-color: blue;
     color:blueviolet
     
+}#search_container:hover{
+    background-color: blue;
+    color:blueviolet
+    
+}
+.nav-link{
+    color: black;
+
+}
+#input_text{
+    background-color: blue;
+    color:blueviolet
+    
+}
+.pinkBackground{
+    width: 100px;
+    height: 20vh; 
+    background-color: pink;
+}
+#col1{
+    background-color: brown;
+}
+#col2{
+    background-color: black
+}
+#col3{
+    background-color: green;
 }
