@@ -61,17 +61,6 @@ function openOrderForm() {
     form.style.display = "none";
   }
 }
-.btn-order {
-  display: inline-block;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  max-width: 200px;
-}
 
 
 </style>
@@ -186,11 +175,7 @@ function openOrderForm() {
 </div>
   
   <a href="https://forms.gle/HyodRK3xXEgMCj8DA"> CLICK HERE TO ORDER </a>
-  <button class="btn-order" onclick="openOrderForm()">Click here to order</button>
-
-<div id="order-form" style="display: none;">
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdYrjpwmWNnHivA_i-hBgHm2oQGFNf6jizSEQFSC2C8VoPINXCePiE4VlEvFXMOnt25hOQt5JmHV1y/pubhtml"></iframe>
-</div>
+  
 
 <!-- About Container -->
 <div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
@@ -258,14 +243,7 @@ function openMenu(evt, menuName) {
   document.getElementById(menuName).style.display = "block";
   evt.currentTarget.firstElementChild.className += " w3-red";
 }
-document.getElementById("myLink").click();
-  
-  function openOrderForm() {
-  var form = document.getElementById("order-form");
-  if (form.style.display === "none") {
-    form.style.display = "block";
-  } else {
-    form.style.display = "none";
+
   }
 }
 </script>
