@@ -1,365 +1,636 @@
 <!DOCTYPE html>
 <html>
   <head>
-        
-        <title>Mr Sekou</title>
+    <title>Mr Sekou</title>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+      .add-to-cart-button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top:10px;
+        text-decoration:none;
+      }
+      .add-to-cart-button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>WELCOME TO</h1>
+    <h3>Mr Sekou Tailor shop for all your dressed events. </h3>
+    <h2>The number one place to get your cloths tailored for all kinds of events in the Gambia</h2>
+    <p> we make haftans, garanmbubu, uniforms, cost, semis etc.  </p>
+    <div class="text-center">
+        <button class="btn btn-primary m-2" onclick="setColumns(1)">1 Column</button>
+        <button class="btn btn-primary m-2" onclick="setColumns(2)">2 Columns</button>
+        <button class="btn btn-primary m-2" onclick="setColumns(3)">3 Columns</button>
+        <button class="btn btn-primary m-2" onclick="setColumns(4)">4 Columns</button>
+    </div>
+    <div class="container" id="gallery">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <h3>Purple Sun flower sample design</h3>
+                <img src="../img/WhatsApp Image 2022-10-27 at 11.26.54 AM.jpeg" style="width:100%">
+                <div class="bottom-right">
+                    <p>Price=0000Dalasis</p>
+                    <a href="../html/cart_for_catg.html" class="add-to-cart-button">Add to Cart</a>
+                    <select>
+                        <option value="1">1</option> 
+                        <option value="2">2</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <h3>Haftan Shirt</h3>
+                <img src="../img/WhatsApp Image 2022-10-27 at 11.26.55 AM.jpeg" style="width:100%">
+                <div class="bottom-right">
+                    <p>Price=4000Dalasis</p>
+                    <a href="../html/cart_for_catg.html" class="add-to-cart-button">Add to Cart</a>
+                    <select>
+                        <option value="1">1</option> 
+                        <option value="2">2</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <h3>Sample Dra design</h3>
+                <img src="../img/WhatsApp Image 2022-10-27 at 11.26.56 AM (1).jpeg" style="width:100%">
+                <div class="bottom-right">
+                    <p>Price=2000Dalasis</p>
+                    <a href="../html/cart_for_catg.html" class="add-to-cart-button">Add to Cart</a>
+                    <select>
+                        <option value="1">1</option> 
+                        <option value="2">2</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <h3>Haftan neck Design</h3>
+                <img src="../img/WhatsApp Image 2022-10-27 at 11.26.56 AM (2).jpeg" style="width:100%">
+                <div class="bottom-right">
+                    <p>Price=0000Dalasis</p>
+                    <a href="../html/cart_for_catg.html" class="add-to-cart-button">Add to Cart</a>
+                    <select>
+                        <option value="1">1</option> 
+                        <option value="2">2</option>
+                    </select>
 
+            <H3>Twin size dra  <img src="../img/WhatsApp Image 2022-10-27 at 11.26.56 AM.jpeg" style="width:100%"></H3> 
 
-</head>
-  <style>
-    * {
-        box-sizing: border-box;
-      }
-      
-      body {
-        margin: 0;
-        font-family: Arial;
-      }
-      
-      .header {
-        text-align: center;
-        padding: 32px;
-      }
-      
-      /* Create two equal columns that floats next to each other */
-      .column {
-        float: left;
-        width: 45%;
-        padding: 10px;
-      }
-      
-      .column img {
-        margin-top: 12px;
-      }
-      
-      /* Clear floats after the columns */
-      .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-        
-        </style>
+            <div class="bottom-right">Price=2000Dalasis 
 
-<body>
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option>  
 
-        <h1>WELCOME TO</h1>
-        <h3>Mr Sekou Tailor shop for all your dressed events. </h3>
-        <h2>The number one place to get your cloths tailored for all kinds of events in the Gambia</h2>
-        <p> we make haftans, garanmbubu, uniforms, cost, semis etc.  </p>
-        
-       
-        
-       
+                <option value="2">2</option></select> 
 
- 
-       
-    <div class="row">
-       <div class="column">   
-       <H3> Purple Sunflower sample design </H3><img src="../img/WhatsApp Image 2022-10-27 at 11.26.54 AM.jpeg" style="width:100%"></H3>
-            <div class="bottom-right"><p>Price=0000Dalasis
-            <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select>
-            <option value="1">1</option> 
-            <option value="2">2</option>
-            </select>
-            </p></div>
-       <H3> Haftan Shirt<img src="../img/WhatsApp Image 2022-10-27 at 11.26.55 AM.jpeg" style="width:100%"></H3>
-            <div class="bottom-right">Price=4000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3>Sample Dra design <img src="../img/WhatsApp Image 2022-10-27 at 11.26.56 AM (1).jpeg" style="width:100%"></H3>
-            <div class="bottom-right">Price=2000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3> Haftan neck Design<img src="../img/WhatsApp Image 2022-10-27 at 11.26.56 AM (2).jpeg" style="width:100%"></H3>
-            <div class="bottom-right">Price=0000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3>Twin size dra  <img src="../img/WhatsApp Image 2022-10-27 at 11.26.56 AM.jpeg" style="width:100%"></H3>
-            <div class="bottom-right">Price=2000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3>Beautiful Robe <img src="../img/WhatsApp Image 2022-10-27 at 11.26.57 AM.jpeg" style="width:100%"></H3>
-            <div class="bottom-right">Price=4000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3> One piece HAFTAN Bazin<img src="../img/0b7acb1f-38f9-4872-8293-028dca5264d7.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=5000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       </div>
-       <div class="column">
-       <H3>Men DASIKI three piece <img src="../img/1df531e3-f248-4aaf-9d4a-a1460f09041d.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=6000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3>Men simple MBUBU <img src="../img/32487176-ef78-4989-9fdf-b5300ef2f571.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=2000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option> 
-                <option value="2">2</option></select>
             </div> 
-       <H3>Women blue Zick Zack styled shirt<img src="../img/35eee364-e9a6-4578-96f1-9d16bacd57da.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=2500Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3><a href="https://en.wikipedia.org/wiki/The_Gambia" >Gambian flag</a><img src="../img/41965b06-5de4-425e-a8e2-39d3515d7f95.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=Priceless
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3>BabyBlue black Sripes style shirt<img src="../img/41f6e13f-feed-4516-b168-db50c89fbd9f.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=2500Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3>Twin white rob <img src="../img/482dbc59-d4ca-4e72-bbb4-47b220093cb8.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=2 for 5000Dalasis or 1 for 3000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       </div>
+
+       <H3>Beautiful Robe <img src="../img/WhatsApp Image 2022-10-27 at 11.26.57 AM.jpeg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=4000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3> One piece HAFTAN Bazin<img src="../img/0b7acb1f-38f9-4872-8293-028dca5264d7.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=5000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       </div> 
+
+       <div class="column"> 
+
+       <H3>Men DASIKI three piece <img src="../img/1df531e3-f248-4aaf-9d4a-a1460f09041d.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=6000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3>Men simple MBUBU <img src="../img/32487176-ef78-4989-9fdf-b5300ef2f571.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=2000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div>  
+
+       <H3>Women blue Zick Zack styled shirt<img src="../img/35eee364-e9a6-4578-96f1-9d16bacd57da.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=2500Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3><a href="https://en.wikipedia.org/wiki/The_Gambia" >Gambian flag</a><img src="../img/41965b06-5de4-425e-a8e2-39d3515d7f95.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=Priceless 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3>BabyBlue black Sripes style shirt<img src="../img/41f6e13f-feed-4516-b168-db50c89fbd9f.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=2500Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3>Twin white rob <img src="../img/482dbc59-d4ca-4e72-bbb4-47b220093cb8.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=2 for 5000Dalasis or 1 for 3000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       </div> 
+
+       <div class="column">        
+
+       <H3> Orange Leave style </H3><img src="../img/48ac639e-6d20-4665-a465-0caa76863c82.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=5000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3> Purple smooth texture Haftan<img src="../img/49afb963-9177-44ca-8938-44972b84d15d.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=4000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3> Brownish Smooth texture Haftan<img src="../img/4af03559-2791-4894-9852-2e87469b785c.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=4000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3> Blue Dasiki<img src="../img/4c6da369-5b5f-4b2a-822e-0193b70dd049.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=5000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3>Black Panther Styled shirt <img src="../img/5938d8fd-62f2-412b-a843-7f73d689ebd5.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=2000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3>Sample Style for men shirt <img src="../img/615e5bc3-4626-4f03-a8de-058f1bffed74.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=0000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3>Part of a female Mbubu<img src="../img/7899a815-a948-4ace-88d1-5e321266353d.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=0000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       </div> 
+
        <div class="column">       
-       <H3> Orange Leave style </H3><img src="../img/48ac639e-6d20-4665-a465-0caa76863c82.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=5000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3> Purple smooth texture Haftan<img src="../img/49afb963-9177-44ca-8938-44972b84d15d.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=4000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3> Brownish Smooth texture Haftan<img src="../img/4af03559-2791-4894-9852-2e87469b785c.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=4000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3> Blue Dasiki<img src="../img/4c6da369-5b5f-4b2a-822e-0193b70dd049.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=5000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3>Black Panther Styled shirt <img src="../img/5938d8fd-62f2-412b-a843-7f73d689ebd5.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=2000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3>Sample Style for men shirt <img src="../img/615e5bc3-4626-4f03-a8de-058f1bffed74.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=0000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3>Part of a female Mbubu<img src="../img/7899a815-a948-4ace-88d1-5e321266353d.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=0000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       </div>
-       <div class="column">      
-       <H3>Men long sleeve Haftan shirts<img src="../img/7c854905-225a-4f6e-b4e5-6bab62948183.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=Buy one for 2500Dalasis buy the next one for half price
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3>Beautiful Sun design for women dress<img src="../img/8a8f6e4b-8c0d-4720-a9c7-48b9081e4dd2.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=0000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3>Haftan <img src="../img/944a9312-bd4d-461c-bee8-07f4f9fda714.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=4000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3>Women Blue Long Dress <img src="../img/a0eb217b-0fb0-4e0b-b7d1-e05ca6a4467c.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=3000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3> Brown Long sleeve Haftan <img src="../img/a3f393fb-dd42-467b-beab-7dcbfe52d0b1.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=3000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3> Haftan Bamako tie & die<img src="../img/a4fe5be5-b5e5-4a34-a7f5-89f056ee0e1b.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=4000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       </div>
-    </div>
 
-    <div class="row">
-    <div class="column">
+       <H3>Men long sleeve Haftan shirts<img src="../img/7c854905-225a-4f6e-b4e5-6bab62948183.jpg" style="width:100%"></H3> 
 
-       <H3>Sample Haftan Neck Design <img src="../img/a5ebe651-4666-4381-a6b0-fcdc4d4842c5.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=0000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3>Beautiful Sunflower design for women Dress<img src="../img/ae9dedca-5418-4b4e-be90-7f78c336017a.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=0000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3>Hand Made Tailored Pink Suit<img src="../img/d1fe6354-872c-4cbf-a4b3-875a44ed08a9.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=5000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3> Yellow Diamond style long sleeve Haftan<img src="../img/de2b0b8e-e589-45b0-82ef-4cbcf591fe51.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=2500Dalasis
-                <select><p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3>Hand sketch design for a dress<img src="../img/e0b889f6-a131-42fc-9a79-98040cc4ecb7.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=Priceless art
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3>Haftan Neck design<img src="../img/e17ad85b-7061-488f-a1ca-c44bdcf51ea9.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-            </div>
-       <H3>Ensemble Haftans <img src="../img/f406d87c-1288-40f0-8a47-f30e0adbc04a.jpg" style="width:100%"></H3>
-            <div class="card">
-                <p>Price For the whole cordinate=10000Dalasis</p>
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option><option value="3">3</option></select>
-            </div>
-        </div>
-        <div class="column">
-       <H3>Ensembled Haftaans plus Skyblue Robe<img src="../img/eae53c6e-9775-4497-9197-0e57dd69f445.jpg" style="width:100%"></H3>
-            <div class="bottom-right">Price=12500Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                <select><option value="1">1</option> 
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option></select>
-            </div>
-       <H3>Purple Sunflower sample design </H3><img src="../img/WhatsApp Image 2022-10-27 at 11.26.54 AM.jpeg" style="width:100%"></H3>
-                <div class="bottom-right">Price=0000Dalasis
-                    <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p>
-                    <select><option value="1">1</option> 
-                <option value="2">2</option></select>
-                </div>
-       <H3> Haftan Shirt<img src="../img/WhatsApp Image 2022-10-27 at 11.26.55 AM.jpeg" style="width:100%"></H3>
-                <div class="bottom-right">Price=4000Dalasis
-                    <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select>
-                        <option value="1">1</option> 
-                        <option value="2">2</option></select>
-                </div>
-       <H3>african lappa incomplete <img src="../img/a5fe308e-fd7c-4b5f-9311-a467db838c62.jpg" style="width:100%"></H3>
-                <div class="bottom-right">Price=2000Dalasis
-                    <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select> 
-                        <option value="1">1</option> 
-                        <option value="2">2</option></select>
-                </div>
-       <H3> Orange Haftan shirt with a hear design in the middle<img src="../img/698d89a2-51f9-4d7d-8b7a-16d7c3fa727d.jpg" style="width:100%"></H3>
-               <div class="bottom-right">Price=0000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> <select>
-                 <option value="1">1</option> 
-                 <option value="2">2</option></select>
-               </div>
-       <H3> pink dress for women<img src= "../img/WhatsApp%20Image%202022-12-15%20at%2010.14.47%20PM%20(1).jpeg"></H3>
-               <div class="bottom-right">Price=0000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> <select>
-                 <option value="1">1</option> 
-                 <option value="2">2</option></select>
-               </div>
-      <H3> pink dress for women<img src= "../img/WhatsApp%20Image%202022-12-15%20at%2010.14.47%20PM.jpeg"></H3>
-               <div class="bottom-right">Price=0000Dalasis
-                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> <select>
-                 <option value="1">1</option> 
-                 <option value="2">2</option></select>
-               </div>
-       <H3>Tie and die abaya  <img src="../img/423dabdb-abc0-48e7-a8c4-8437949a29bd.jpg" style="width:100%"></H3>
-               <div class="bottom-right">Price=2000Dalasis
-               <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select>
-                <option value="1">1</option> 
-                <option value="2">2</option></select>
-               </div>
-        </div>
-    <div class="column">
-       <H3>Design for an abaya <img src="../img/185fad29-2083-4eb4-8f1e-e61dfd9efd42.jpg" style="width:100%"></H3>
-               <div class="bottom-right"><p>price =4000Dalasis<button><a href="../html/cart_for_catg.html">Add to Cart</a></button><select>
-                <option value="1">1</option> 
+            <div class="bottom-right">Price=Buy one for 2500Dalasis buy the next one for half price 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3>Beautiful Sun design for women dress<img src="../img/8a8f6e4b-8c0d-4720-a9c7-48b9081e4dd2.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=0000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3>Haftan <img src="../img/944a9312-bd4d-461c-bee8-07f4f9fda714.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=4000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3>Women Blue Long Dress <img src="../img/a0eb217b-0fb0-4e0b-b7d1-e05ca6a4467c.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=3000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3> Brown Long sleeve Haftan <img src="../img/a3f393fb-dd42-467b-beab-7dcbfe52d0b1.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=3000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3> Haftan Bamako tie & die<img src="../img/a4fe5be5-b5e5-4a34-a7f5-89f056ee0e1b.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=4000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       </div> 
+
+    </div> 
+
+  
+
+    <div class="row"> 
+
+    <div class="column"> 
+
+  
+
+       <H3>Sample Haftan Neck Design <img src="../img/a5ebe651-4666-4381-a6b0-fcdc4d4842c5.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=0000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3>Beautiful Sunflower design for women Dress<img src="../img/ae9dedca-5418-4b4e-be90-7f78c336017a.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=0000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3>Hand Made Tailored Pink Suit<img src="../img/d1fe6354-872c-4cbf-a4b3-875a44ed08a9.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=5000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3> Yellow Diamond style long sleeve Haftan<img src="../img/de2b0b8e-e589-45b0-82ef-4cbcf591fe51.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=2500Dalasis 
+
+                <select><p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3>Hand sketch design for a dress<img src="../img/e0b889f6-a131-42fc-9a79-98040cc4ecb7.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=Priceless art 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3>Haftan Neck design<img src="../img/e17ad85b-7061-488f-a1ca-c44bdcf51ea9.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price= 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+            </div> 
+
+       <H3>Ensemble Haftans <img src="../img/f406d87c-1288-40f0-8a47-f30e0adbc04a.jpg" style="width:100%"></H3> 
+
+            <div class="card"> 
+
+                <p>Price For the whole cordinate=10000Dalasis</p> 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
+                <option value="2">2</option><option value="3">3</option></select> 
+
+            </div> 
+
+        </div> 
+
+        <div class="column"> 
+
+       <H3>Ensembled Haftaans plus Skyblue Robe<img src="../img/eae53c6e-9775-4497-9197-0e57dd69f445.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right">Price=12500Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                <select><option value="1">1</option>  
+
                 <option value="2">2</option> 
-                    
-                    </select>
-                
-               </div>
-    
-        <H3>nice haftan shirt <img src="../img/3b804be9-c995-4c8d-964a-962a4edf27cd.jpg" style="width:100%"></H3>
-                <div class="bottom-right"><p>price =4000Dalasis<button><a href="../html/cart_for_catg.html">Add to Cart</a></button><select>
-                 <option value="1">1</option> 
-                  <option value="2">2</option> 
-                             
-                    </select>
-    
-        <H3>Design for an abaya <img src="../img/ab0f530d-ae6c-4dbb-80a5-c6e8e9a1efc9.jpg" style="width:100%"></H3>
-            <div class="bottom-right"><p>price =4000Dalasis<button><a href="../html/cart_for_catg.html">Add to Cart</a></button><select>
-            <option value="1">1</option> 
-            <option value="2">2</option> 
-                                     
-                </select>
-                                 
-                                </div>
-                         
-                        </div>
-                          
-    </div>
-    </div>
-                            
+
+                <option value="3">3</option> 
+
+                <option value="4">4</option></select> 
+
+            </div> 
+
+       <H3>Purple Sunflower sample design </H3><img src="../img/WhatsApp Image 2022-10-27 at 11.26.54 AM.jpeg" style="width:100%"></H3> 
+
+                <div class="bottom-right">Price=0000Dalasis 
+
+                    <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> 
+
+                    <select><option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+                </div> 
+
+       <H3> Haftan Shirt<img src="../img/WhatsApp Image 2022-10-27 at 11.26.55 AM.jpeg" style="width:100%"></H3> 
+
+                <div class="bottom-right">Price=4000Dalasis 
+
+                    <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select> 
+
+                        <option value="1">1</option>  
+
+                        <option value="2">2</option></select> 
+
+                </div> 
+
+       <H3>african lappa incomplete <img src="../img/a5fe308e-fd7c-4b5f-9311-a467db838c62.jpg" style="width:100%"></H3> 
+
+                <div class="bottom-right">Price=2000Dalasis 
+
+                    <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select>  
+
+                        <option value="1">1</option>  
+
+                        <option value="2">2</option></select> 
+
+                </div> 
+
+       <H3> Orange Haftan shirt with a hear design in the middle<img src="../img/698d89a2-51f9-4d7d-8b7a-16d7c3fa727d.jpg" style="width:100%"></H3> 
+
+               <div class="bottom-right">Price=0000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> <select> 
+
+                 <option value="1">1</option>  
+
+                 <option value="2">2</option></select> 
+
+               </div> 
+
+       <H3> pink dress for women<img src= "../img/WhatsApp%20Image%202022-12-15%20at%2010.14.47%20PM%20(1).jpeg"></H3> 
+
+               <div class="bottom-right">Price=0000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> <select> 
+
+                 <option value="1">1</option>  
+
+                 <option value="2">2</option></select> 
+
+               </div> 
+
+      <H3> pink dress for women<img src= "../img/WhatsApp%20Image%202022-12-15%20at%2010.14.47%20PM.jpeg"></H3> 
+
+               <div class="bottom-right">Price=0000Dalasis 
+
+                <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p> <select> 
+
+                 <option value="1">1</option>  
+
+                 <option value="2">2</option></select> 
+
+               </div> 
+
+       <H3>Tie and die abaya  <img src="../img/423dabdb-abc0-48e7-a8c4-8437949a29bd.jpg" style="width:100%"></H3> 
+
+               <div class="bottom-right">Price=2000Dalasis 
+
+               <p><button><a href="../html/cart_for_catg.html">Add to Cart</a></button></p><select> 
+
+                <option value="1">1</option>  
+
+                <option value="2">2</option></select> 
+
+               </div> 
+
+        </div> 
+
+    <div class="column"> 
+
+       <H3>Design for an abaya <img src="../img/185fad29-2083-4eb4-8f1e-e61dfd9efd42.jpg" style="width:100%"></H3> 
+
+               <div class="bottom-right"><p>price =4000Dalasis<button><a href="../html/cart_for_catg.html">Add to Cart</a></button><select> 
+
+                <option value="1">1</option>  
+
+                <option value="2">2</option>  
+
+                     
+
+                    </select> 
+
+                 
+
+               </div> 
+
+     
+
+        <H3>nice haftan shirt <img src="../img/3b804be9-c995-4c8d-964a-962a4edf27cd.jpg" style="width:100%"></H3> 
+
+                <div class="bottom-right"><p>price =4000Dalasis<button><a href="../html/cart_for_catg.html">Add to Cart</a></button><select> 
+
+                 <option value="1">1</option>  
+
+                  <option value="2">2</option>  
+
+                              
+
+                    </select> 
+
+     
+
+        <H3>Design for an abaya <img src="../img/ab0f530d-ae6c-4dbb-80a5-c6e8e9a1efc9.jpg" style="width:100%"></H3> 
+
+            <div class="bottom-right"><p>price =4000Dalasis<button><a href="../html/cart_for_catg.html">Add to Cart</a></button><select> 
+
+            <option value="1">1</option>  
+
+            <option value="2">2</option>  
+
                                       
-    
-    <br>
+
+                </select> 
+
+                                  
+
+                                
+
+                             
+
+                                       
+
+     
+
+    <br> 
+
+    <hr> 
+                </div>
+            </div>
+        </div>
+    </div>
+     <br> 
+
     <hr>
-            
-            
-        
-        
-          
-        
-            
+    <p>For more information visit our store at bundung or contact us at 2447217</p>
+    <a href="mailto:mobaldeh@yahoo.com">Send me an email for your order</a>
+    <script>
+        function setColumns(columns) { var elements = document.getElementsByClassName("col-md-3");
+            for (var i = 0; i < elements.length; i++) {
+                elements[i].classList.remove("col-md-3", "col-sm-6", "col-xs-12");
+                elements[i].classList.add("col-" + columns);
+            }
+        }
+    </script>
+    <div class="row">
+        <div class="col-xs-12">
+            <button onclick="setColumns(1)">1 column</button>
+            <button onclick="setColumns(2)">2 columns</button>
+            <button onclick="setColumns(3)">3 columns</button>
+            <button onclick="setColumns(4)">4 columns</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-       
-
-<p>For more information visit our store at bundung or contact us at 2447217</p>
-     <a href="mailto:mobaldeh@yahoo.com">Send me an email for your order</a>   
-            
-    
-        
-
-    </body>
+</body>
 </html>
+
+
